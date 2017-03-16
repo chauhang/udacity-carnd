@@ -16474,10 +16474,11 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">history</span><span class="o">.</span><span class="n">history</span><span class="p">[</span><span class="s1">&#39;val_acc&#39;</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -16490,7 +16491,8 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[0.44413624196560347, 0.91068883617058316]
+<pre>[0.8201814344951085, 0.8845805284928302, 0.902721120224518, 0.91133789464729986, 0.92403630318284846, 0.92585036949235566, 0.92176874202935877, 0.93015875629827283, 0.92448982640999511, 0.92834469955794663, 0.93673472063882013, 0.93560093535857947, 0.93514741861901318, 0.93582769072785665, 0.93174605807479549, 0.93469390560980559, 0.93537417771864906, 0.93582769072785665, 0.93469390690732168, 0.9344671465101696, 0.93446715689029825, 0.93537418161119734, 0.93333336268963452, 0.93469390690732168, 0.93537417901616515, 0.93310660358999864, 0.93469390560980559, 0.93560093811580114, 0.9369614810359721, 0.93537417901616515, 0.93356012049175441, 0.93401363609599419, 0.93492066600695756, 0.93492066211440938, 0.93446714910520179]
+[0.44413624196560347, 0.91068883617058316]
 </pre>
 </div>
 </div>
