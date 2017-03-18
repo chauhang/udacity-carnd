@@ -20534,15 +20534,15 @@ ngXSz+v/AAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[94]:</div>
+<div class="prompt input_prompt">In&nbsp;[98]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Calculate the accuracy for these 5 new images. </span>
 <span class="c1">### For example, if the model predicted 1 out of 5 signs correctly, it&#39;s 20% accurate on these new images.</span>
 
-<span class="c1">#Only three images from the web are showing proper labels so far, overall accuracy is not that good due to the high noise factor in the training data</span>
+<span class="c1">#Only four images from the web are showing proper labels so far, overall accuracy is not that good due to the high noise factor in the training data</span>
 
-<span class="n">correct_labels</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">correct_labels</span> <span class="o">=</span> <span class="mi">4</span>
 <span class="n">test_accuracy</span> <span class="o">=</span> <span class="p">(</span><span class="n">correct_labels</span><span class="o">/</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">X_new</span><span class="p">))</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span>
 <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Test run accuracy: </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">test_accuracy</span><span class="p">))</span>
 </pre></div>
@@ -20557,7 +20557,7 @@ ngXSz+v/AAAAAElFTkSuQmCC
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Test run accuracy: 50.0
+<pre>Test run accuracy: 66.66666666666666
 </pre>
 </div>
 </div>
